@@ -1,0 +1,178 @@
+
+body
+{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6
+{
+  font-family: 'Montserrat-black';
+}
+
+.big-heading
+{
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.section-heading,.pricing-heading,.testimonial-heading
+{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+.pricing-text,.features-text
+{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#cta h3
+{
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.container-fluid
+{
+  padding: 7% 15%;
+}
+
+#title .container-fluid
+{
+  padding: 3% 15% 7%;
+}
+#cta .container-fluid
+{
+  padding: 7% 30%;
+}
+   /*Title*/
+#title
+{
+  text-align: left;
+}
+.coloured-section
+{
+  background-color: #ff4c68;
+}
+.white-section
+{
+background-color: #fff;
+}
+.navbar
+{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand
+{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+}
+
+.nav-item
+{
+  padding: 1.2rem;
+}
+
+.nav-link
+{
+  font-family: 'Montserrat-light';
+  font-size: 1.3rem;
+}
+
+.download-button
+{
+  margin: 3% 5% 0 0;
+}
+
+
+.image
+{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  background-color: #fff;
+  right: 30%;
+}
+
+@media  (max-width: 1028px) {
+  .image
+  {
+  position: static;
+  transform: rotate(0deg);
+  }
+  #title
+  {
+    text-align: center;
+  }
+
+}
+
+/* Features */
+#features
+{
+    position:relative;
+}
+
+#features.p
+{
+  color: #8f8f8f;
+}
+.icon
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+ color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials
+{
+  background-color: #ef8172;
+}
+.testimonials-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 1% 0 5% 0;
+}
+/* Press */
+#press
+{
+background-color: #ef8172;
+padding-bottom: 3%;
+}
+.press-images
+{
+  margin: 0 4%;
+  width: 10rem;
+}
+/* Pricing */
+#pricing
+{
+padding: 5%;
+}
+.pricing-columns
+{
+padding: 3% 2%;
+}
+
+#footer
+{
+  padding: 5%;
+}
+
+.links
+{
+  margin: 1% 1%;
+}
